@@ -137,6 +137,8 @@ public class StreamExercises {
                     .orElseThrow(NoSuchElementException::new);
 
             System.out.println("Max value is: " + maxNumber);
+        } else {
+            System.out.println("Value not selected");
         }
     }
 
